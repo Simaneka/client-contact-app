@@ -1,0 +1,80 @@
+@font-face {
+    font-family: NotoSans-Light;
+    src: url(../fonts/NotoSans-Light.ttf);
+}
+
+@font-face {
+    font-family: NotoSans-Regular;
+    src: url(../fonts/NotoSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: NotoSans-Bold;
+    src: url(../fonts/NotoSans-Bold.ttf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: NotoSans-Regular, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: NotoSans-Bold, sans-serif;
+}
+
+span,
+a,
+p {
+    font-family: NotoSans-Light, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    font-family: NotoSans-Bold, sans-serif;
+}
+
+td,
+th {
+    border: 1px solid #002e1f;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.createClient {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.linkContacts {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+}
+
+input {
+    font-family: NotoSans-Light, sans-serif;
+    font-size: 12px;
+}
